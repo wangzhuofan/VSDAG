@@ -12,7 +12,10 @@ The goal of VSDAG is to provide codes for MAP estimation of DAG with a spike-and
 You can install the development version of VSDAG like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("devtools")
+library(devtools)
+install_github("wangzhuofan/VSDAG")
+
 ```
 
 ## Example
