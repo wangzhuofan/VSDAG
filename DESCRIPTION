@@ -1,0 +1,13 @@
+Package: VSDAG
+Type: Package
+Title: This packages provides codes for MAP estimation for Directed Acyclic Graph with a Spike-and-sla piror.
+Version: 0.1.0
+Authors@R: person("Zhuofan","Wang",, "zf.wang@ruc.edu.cn", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: An effective way to solve structural equation model (SEM) is to assign a spike-and-slab prior on
+    weight matrix of SEM. This package provides a maximize-a-posterior (MAP) estimation for the model 
+    described above.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: gnlearn,igraph,mvtnorm
