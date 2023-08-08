@@ -1,3 +1,14 @@
+#' VSDAG
+#'
+#' @param seed set a seed
+#' @param n sample size of the observed data $x$
+#' @param p dimension of the observed data $x$
+#' @param x observed data $x$
+#'
+#' @return adjacent matrix gamma and weight matrix beta
+#' @export
+#'
+#' @examples emvs(1,100,5,matrix(rnorm(500),nrow=5,ncol=100))
 emvs = function(seed,n,p,x){
   set.seed(seed)
   v0 = 0.01
